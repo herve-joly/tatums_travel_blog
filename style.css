@@ -3,7 +3,10 @@
 }
 
 h1{
-    color: white;
+    color:wheat;
+}
+.subheading{
+    border-bottom: solid lightslategray;
 }
 /* Insert a comment here! */
 h3{
@@ -12,18 +15,33 @@ h3{
 
 body{
     background-color: whitesmoke;
+    border-radius: 0.75em;
+    
 }
 
 article{
     background-image: linear-gradient(white, grey);
+    padding: 0.5rem;
+    box-shadow: 2px 2px black;
 }
 
 header{
     background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
     background-size: cover;
+    padding: 0.5rem;
+    box-shadow: 2px 2px black;
+    text-shadow: 2px 4px black;
+    color: white;
 }
 
 a{
     color: lightseagreen;
     text-decoration: none;
+}
+img{
+    display: block;
+    height: 20%;
+    border-color: lightseagreen;
+    margin-bottom: 1.5rem;
+    box-shadow: 2px 2px black;
 }
